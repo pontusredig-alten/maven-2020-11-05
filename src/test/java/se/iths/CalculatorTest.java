@@ -19,6 +19,12 @@ public class CalculatorTest {
         assertEquals(5, calculator.add(3, 2));
     }
 
+    @Test
+    void testAdd3() {
+        Calculator calculator = new Calculator();
+        assertEquals(5, calculator.add(3, 2));
+    }
+
 
 
 }
