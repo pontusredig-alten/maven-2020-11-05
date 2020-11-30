@@ -1,7 +1,7 @@
 package se.iths.main;
 
 import se.iths.calculator.Calculator;
-import se.iths.textprocessor.TextProcessor;
+
 
 public class Main {
 
@@ -11,9 +11,6 @@ public class Main {
 
         System.out.println(calculator.add(2, 3));
 
-        TextProcessor textProcessor = new TextProcessor();
-
-        System.out.println(textProcessor.textReverse("Reverse me!"));
 
     }
 
